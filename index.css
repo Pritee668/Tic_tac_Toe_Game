@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+hr{
+    height: 30px;
+    background-color: black;
+    opacity: 1;
+}
+body{
+    overflow-y:auto;
+}
+#win{
+    height: 60vh;
+    width: 90vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box{
+    height: 30px;
+    width: 30px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border:1px solid black;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+
+}
