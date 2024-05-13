@@ -17,8 +17,13 @@ start.addEventListener("click",function(e){
     e.preventDefault();
     name1=document.querySelector("#first_name").value;
      name2=document.querySelector("#second_name").value;
+    
    
      n=parseInt(num.value);
+     if((num=="" || name1=="")||name2==""){
+        alert("form the required field!");
+     }
+     else{
     for(var i=0;i<n;i++){
         for(var j=0;j<n;j++){
             ele=document.createElement('button');
@@ -41,6 +46,7 @@ start.addEventListener("click",function(e){
     ele=document.createElement('p');
     ele.innerHTML="its "+`${name1}`+" turn ";
     rootparent.appendChild(ele);
+     }
 });
 
 c=document.getElementsByTagName('button');
