@@ -21,7 +21,7 @@ start.addEventListener("click",function(e){
    
      n=parseInt(num.value);
      if(num.value=="" || name1==""||name2==""){
-        alert("fill the required field!");
+        alert("Fill the required field!");
      }
      else{
     for(var i=0;i<n;i++){
