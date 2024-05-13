@@ -20,7 +20,7 @@ start.addEventListener("click",function(e){
     
    
      n=parseInt(num.value);
-     if((num=="" || name1=="")||name2==""){
+     if(num.value=="" || name1==""||name2==""){
         alert("form the required field!");
      }
      else{
