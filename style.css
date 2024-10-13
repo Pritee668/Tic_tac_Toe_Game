@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('backimg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    overflow: hidden; /* Prevent body from scrolling */
+}
+
+.container {
+    height: 80vh; /* Set a specific height for the container */
+    width: 60vw;
+    text-align: left; 
+    overflow-y: auto; /* Scroll vertically */
+    overflow-x: hidden; /* Prevent horizontal scroll */
+    display: block;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.437); 
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+/* Other styles remain the same */
+
+.text {
+    font-size: 1.4rem;
+    color: rgb(242, 11, 226);
+}
+
+.btn {
+    font-size: 1rem;
+    box-shadow: 3px 5px 3px rgb(137, 221, 182);
+    transition: transform 2s;
+    background-color:rgb(242, 11, 226) ;
+    color: black;
+}
+
+.btn:active {
+    box-shadow: 2px 3px 2px black;
+    transform: translateY(2px);
+}
+
+.primary {
+    color: rgb(4, 4, 4);
+    text-align: left !important;
+}
+
+.box {
+    height: 30px;
+    width: 30px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.same {
+    width: 50%;
+}
+
+@media (max-width: 600px) {
+    .same {
+        width: 95%;
+    }
+}
