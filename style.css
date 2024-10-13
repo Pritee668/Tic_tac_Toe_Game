@@ -11,9 +11,11 @@ body {
     top: 0;
     left: 0;
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh; /* Ensures the image covers full height */
     background-image: url('backimg.jpg');
-    background-size: cover;
+    background-size: cover; /* Ensures image covers the whole screen */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Image stays fixed when scrolling */
     background-repeat: no-repeat;
     display: flex; 
     justify-content: center; 
@@ -45,7 +47,7 @@ body {
     font-size: 1rem;
     box-shadow: 3px 5px 3px rgb(137, 221, 182);
     transition: transform 2s;
-    background-color:rgb(242, 11, 226) ;
+    background-color: rgb(242, 11, 226);
     color: black;
 }
 
