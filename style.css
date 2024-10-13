@@ -35,6 +35,12 @@ body {
     padding: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
 }
+#win{
+    height: 90%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .text {
     font-size: 1.4rem;
@@ -81,5 +87,11 @@ body {
     .container{
         width: 100vw;
         height: fit-content;
+    }
+    #win{
+        height: 90%;
+        width: 90%;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
